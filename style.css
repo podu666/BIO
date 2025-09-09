@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
-    background-image: url('https://img.freepik.com/free-vector/realistic-foggy-background_52683-73669.jpg?t=st=1743340190~exp=1743343790~hmac=eec2234a3c263fa530f6cc6ee346eaa349e232036c2fb7049216d1a615a3b23a&w=996');
+    background-image: url('https://img3.akspic.ru/crops/3/0/9/9/3/139903/139903-vudstok_kuranty-vesna-rozovyj-cvetenie_vishni-mat-1920x1080.jpg');
     background-size: cover;
     background-position: center;
     margin: 0;
@@ -32,7 +32,9 @@ a {
 
 /* Подчеркнутый текст при наведении на ссылку */
 
-
+a:hover {
+    text-decoration: underline;
+}
 
 /* Цвет гиперссылки */
 
@@ -43,7 +45,7 @@ a:visited {
 /* Фото */
 
 .avatar {
-    width: 200px;
+    width: 250px;
     border-radius: 20px;
     box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
 }
@@ -66,9 +68,9 @@ a:visited {
 /* Изменение "Студент" */
 
 .info p {
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     margin: 0;
-
+    font-size: 18px;
     font-weight: bold;
 }
 
@@ -138,6 +140,10 @@ a:visited {
     padding: 15px;
 }
 .bio {
-    color: aliceblue;
+    color: rgb(0, 0, 0);
+}
+
+.bg-red1 {
+    background: rgb(200, 219, 241);
 }
 
